@@ -1,25 +1,28 @@
-# TikTok Business API FastAPI Backend
+# 🚀 FastAPI Project Setup Guide
 
-## 📌 Features
-- [x] Get access token
-- [x] Get Report
-- [x] Create Campaign
-- [x] Create Ad Group
-- [x] Create Ad
+## 📦 Environment Setup
 
-## 📚 Quick Start
+### Buat Virtual Environment (Python 3.11.8)
+Pastikan Python 3.11.8 sudah terpasang di sistem kamu. Jalankan perintah berikut untuk membuat virtual environment:
 
-To install libraries and run program automatically - open run.bat on Windows using CMD
+```bash
+py -3.11 -m venv venv
+```
 
-## Prerequisites
-- [Python](https://www.python.org/downloads/) v3.10 or newer
-- Redis (running on port 6379)
-- Google Chrome
+aktifkan venv
 
-## Installation
-### 🚀 Program installation
-You can download the repository by cloning it to your system and installing the necessary dependencies:
+```bash
+venv\Scripts\activate
+```
 
-```shell
-git clone https://github.com/your-repo/tiktok-business-api-fastapi.git
-cd tiktok-business-api-fastapi
+install dependesi
+
+```bash
+pip install -r requirements.txt
+```
+
+jalankan 
+
+```bash
+uvicorn main:app --reload atau
+python run.py
