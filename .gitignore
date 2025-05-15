@@ -1,0 +1,6 @@
+./.env
+./.env copy/
+.env
+tvenv/
+app/__pycache__/
+.gitignore/
